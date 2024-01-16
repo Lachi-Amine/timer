@@ -28,7 +28,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25vh;
+    width: 15vw;
     height: 25vh;
     background-color: #ffffff;
     color: black;
@@ -39,7 +39,7 @@ h2{
     font-weight: bold;
 }
 #round{
-    width: 25vh;
+    width: 15vw;
     height: 25vh;
     border-radius: 50%;
     background-color: rgb(255, 217, 0);
@@ -58,4 +58,21 @@ body{
 }
 #iii{
     font-size: 5vh;
+}
+button{
+  padding: 2vh 2vh 2vh 2vh;
+  margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    width: 12vw;
+}
+#CONTROL{
+
+    display: flex;
+}
+button:hover{
+    background-color: #0099ff;
+    color: #2c0d0d;
+    border: 2px solid #2c0d0d;
 }
